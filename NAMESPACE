@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+import(jpeg)
+importFrom(grDevices, "dev.new")
+importFrom(graphics, "plot", "rasterImage", "locator")
+importFrom(stats, "dist")
+importFrom(utils, "menu")
